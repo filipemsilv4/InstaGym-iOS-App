@@ -11,6 +11,12 @@
 		FA6645982AF1BE2800C56576 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6645972AF1BE2800C56576 /* ContentView.swift */; };
 		FA66459A2AF1BE2A00C56576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6645992AF1BE2A00C56576 /* Assets.xcassets */; };
 		FA66459D2AF1BE2A00C56576 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA66459C2AF1BE2A00C56576 /* Preview Assets.xcassets */; };
+		FA6645A52AF1CB8300C56576 /* description.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6645A42AF1CB8300C56576 /* description.swift */; };
+		FA6645A72AF1CBAD00C56576 /* descriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6645A62AF1CBAD00C56576 /* descriptionModel.swift */; };
+		FA6645A92AF1CBCB00C56576 /* addTrein.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6645A82AF1CBCB00C56576 /* addTrein.swift */; };
+		FA6645AB2AF1CBE900C56576 /* addTreinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6645AA2AF1CBE900C56576 /* addTreinModel.swift */; };
+		FA6645AD2AF1CC0E00C56576 /* ViewTrein.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6645AC2AF1CC0E00C56576 /* ViewTrein.swift */; };
+		FA6645AF2AF1CC3800C56576 /* descriptionExec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6645AE2AF1CC3800C56576 /* descriptionExec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		FA6645972AF1BE2800C56576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA6645992AF1BE2A00C56576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA66459C2AF1BE2A00C56576 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA6645A42AF1CB8300C56576 /* description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = description.swift; path = ../../../../description.swift; sourceTree = "<group>"; };
+		FA6645A62AF1CBAD00C56576 /* descriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = descriptionModel.swift; path = ../../../../descriptionModel.swift; sourceTree = "<group>"; };
+		FA6645A82AF1CBCB00C56576 /* addTrein.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = addTrein.swift; path = ../../../../addTrein.swift; sourceTree = "<group>"; };
+		FA6645AA2AF1CBE900C56576 /* addTreinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = addTreinModel.swift; path = ../../../../addTreinModel.swift; sourceTree = "<group>"; };
+		FA6645AC2AF1CC0E00C56576 /* ViewTrein.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewTrein.swift; path = ../../../ViewTrein.swift; sourceTree = "<group>"; };
+		FA6645AE2AF1CC3800C56576 /* descriptionExec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = descriptionExec.swift; path = ../../../descriptionExec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,13 @@
 		FA6645942AF1BE2800C56576 /* InstaGym */ = {
 			isa = PBXGroup;
 			children = (
+				FA6645A32AF1CB6700C56576 /* Models */,
 				FA6645952AF1BE2800C56576 /* InstaGymApp.swift */,
 				FA6645972AF1BE2800C56576 /* ContentView.swift */,
 				FA6645992AF1BE2A00C56576 /* Assets.xcassets */,
 				FA66459B2AF1BE2A00C56576 /* Preview Content */,
+				FA6645AC2AF1CC0E00C56576 /* ViewTrein.swift */,
+				FA6645AE2AF1CC3800C56576 /* descriptionExec.swift */,
 			);
 			path = InstaGym;
 			sourceTree = "<group>";
@@ -65,6 +80,17 @@
 				FA66459C2AF1BE2A00C56576 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA6645A32AF1CB6700C56576 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA6645A42AF1CB8300C56576 /* description.swift */,
+				FA6645A62AF1CBAD00C56576 /* descriptionModel.swift */,
+				FA6645A82AF1CBCB00C56576 /* addTrein.swift */,
+				FA6645AA2AF1CBE900C56576 /* addTreinModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +164,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6645982AF1BE2800C56576 /* ContentView.swift in Sources */,
+				FA6645AF2AF1CC3800C56576 /* descriptionExec.swift in Sources */,
+				FA6645AD2AF1CC0E00C56576 /* ViewTrein.swift in Sources */,
+				FA6645A52AF1CB8300C56576 /* description.swift in Sources */,
+				FA6645AB2AF1CBE900C56576 /* addTreinModel.swift in Sources */,
+				FA6645A72AF1CBAD00C56576 /* descriptionModel.swift in Sources */,
+				FA6645A92AF1CBCB00C56576 /* addTrein.swift in Sources */,
 				FA6645962AF1BE2800C56576 /* InstaGymApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
