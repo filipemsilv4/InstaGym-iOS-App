@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		792D24432AE88CCD00CDA178 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792D24422AE88CCD00CDA178 /* ProfileModel.swift */; };
+		798B73662ADD722D000ED7B6 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B73652ADD722D000ED7B6 /* TabBarModel.swift */; };
+		798F4B782AF1B551005FFB1E /* ViewerWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798F4B772AF1B551005FFB1E /* ViewerWorkout.swift */; };
+		7998D7DC2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7998D7DB2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift */; };
+		7998D7DE2ADE0FA10084A4BE /* DateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7998D7DD2ADE0FA10084A4BE /* DateModel.swift */; };
+		79A8FA1C2ADF4C66005E737C /* AddNewTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A8FA1B2ADF4C66005E737C /* AddNewTraining.swift */; };
+		79A8FA1E2ADF4CD7005E737C /* AddNewTrainingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A8FA1D2ADF4CD7005E737C /* AddNewTrainingModel.swift */; };
+		79A8FA202ADF72BD005E737C /* TypeTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A8FA1F2ADF72BD005E737C /* TypeTraining.swift */; };
+		79E4DAE62ADC324C0072F993 /* Insta_Gym_Version_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4DAE52ADC324C0072F993 /* Insta_Gym_Version_2App.swift */; };
+		79E4DAE82ADC324C0072F993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4DAE72ADC324C0072F993 /* ContentView.swift */; };
+		79E4DAEA2ADC324E0072F993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E4DAE92ADC324E0072F993 /* Assets.xcassets */; };
+		79E4DAED2ADC324E0072F993 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E4DAEC2ADC324E0072F993 /* Preview Assets.xcassets */; };
+		79E4DAF52ADC3CFC0072F993 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4DAF42ADC3CFC0072F993 /* home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		792D24422AE88CCD00CDA178 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		798B73652ADD722D000ED7B6 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
+		798F4B772AF1B551005FFB1E /* ViewerWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewerWorkout.swift; sourceTree = "<group>"; };
+		7998D7DB2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutOfTheDayModel.swift; sourceTree = "<group>"; };
+		7998D7DD2ADE0FA10084A4BE /* DateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateModel.swift; sourceTree = "<group>"; };
+		79A8FA1B2ADF4C66005E737C /* AddNewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTraining.swift; sourceTree = "<group>"; };
+		79A8FA1D2ADF4CD7005E737C /* AddNewTrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTrainingModel.swift; sourceTree = "<group>"; };
+		79A8FA1F2ADF72BD005E737C /* TypeTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTraining.swift; sourceTree = "<group>"; };
+		79E4DAE22ADC324C0072F993 /* Insta-Gym Version 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta-Gym Version 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E4DAE52ADC324C0072F993 /* Insta_Gym_Version_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_Gym_Version_2App.swift; sourceTree = "<group>"; };
+		79E4DAE72ADC324C0072F993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79E4DAE92ADC324E0072F993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E4DAEC2ADC324E0072F993 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79E4DAF42ADC3CFC0072F993 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E4DADF2ADC324C0072F993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798B73642ADD71C0000ED7B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				798B73652ADD722D000ED7B6 /* TabBarModel.swift */,
+				7998D7DB2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift */,
+				7998D7DD2ADE0FA10084A4BE /* DateModel.swift */,
+				79A8FA1D2ADF4CD7005E737C /* AddNewTrainingModel.swift */,
+				79A8FA1F2ADF72BD005E737C /* TypeTraining.swift */,
+				792D24422AE88CCD00CDA178 /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79E4DAD92ADC324C0072F993 = {
+			isa = PBXGroup;
+			children = (
+				79E4DAE42ADC324C0072F993 /* Insta-Gym Version 2 */,
+				79E4DAE32ADC324C0072F993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E4DAE32ADC324C0072F993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E4DAE22ADC324C0072F993 /* Insta-Gym Version 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E4DAE42ADC324C0072F993 /* Insta-Gym Version 2 */ = {
+			isa = PBXGroup;
+			children = (
+				79E4DAE52ADC324C0072F993 /* Insta_Gym_Version_2App.swift */,
+				79E4DAE72ADC324C0072F993 /* ContentView.swift */,
+				79E4DAF32ADC3C9F0072F993 /* View */,
+				798B73642ADD71C0000ED7B6 /* Model */,
+				79E4DAE92ADC324E0072F993 /* Assets.xcassets */,
+				79E4DAEB2ADC324E0072F993 /* Preview Content */,
+			);
+			path = "Insta-Gym Version 2";
+			sourceTree = "<group>";
+		};
+		79E4DAEB2ADC324E0072F993 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79E4DAEC2ADC324E0072F993 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79E4DAF32ADC3C9F0072F993 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79E4DAF42ADC3CFC0072F993 /* home.swift */,
+				79A8FA1B2ADF4C66005E737C /* AddNewTraining.swift */,
+				798F4B772AF1B551005FFB1E /* ViewerWorkout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E4DAE12ADC324C0072F993 /* Insta-Gym Version 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E4DAF02ADC324E0072F993 /* Build configuration list for PBXNativeTarget "Insta-Gym Version 2" */;
+			buildPhases = (
+				79E4DADE2ADC324C0072F993 /* Sources */,
+				79E4DADF2ADC324C0072F993 /* Frameworks */,
+				79E4DAE02ADC324C0072F993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Insta-Gym Version 2";
+			productName = "Insta-Gym Version 2";
+			productReference = 79E4DAE22ADC324C0072F993 /* Insta-Gym Version 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E4DADA2ADC324C0072F993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					79E4DAE12ADC324C0072F993 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 79E4DADD2ADC324C0072F993 /* Build configuration list for PBXProject "Insta-Gym Version 2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E4DAD92ADC324C0072F993;
+			productRefGroup = 79E4DAE32ADC324C0072F993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E4DAE12ADC324C0072F993 /* Insta-Gym Version 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E4DAE02ADC324C0072F993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E4DAED2ADC324E0072F993 /* Preview Assets.xcassets in Resources */,
+				79E4DAEA2ADC324E0072F993 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E4DADE2ADC324C0072F993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798B73662ADD722D000ED7B6 /* TabBarModel.swift in Sources */,
+				79A8FA202ADF72BD005E737C /* TypeTraining.swift in Sources */,
+				79E4DAF52ADC3CFC0072F993 /* home.swift in Sources */,
+				79A8FA1C2ADF4C66005E737C /* AddNewTraining.swift in Sources */,
+				798F4B782AF1B551005FFB1E /* ViewerWorkout.swift in Sources */,
+				79E4DAE82ADC324C0072F993 /* ContentView.swift in Sources */,
+				792D24432AE88CCD00CDA178 /* ProfileModel.swift in Sources */,
+				79A8FA1E2ADF4CD7005E737C /* AddNewTrainingModel.swift in Sources */,
+				7998D7DC2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift in Sources */,
+				79E4DAE62ADC324C0072F993 /* Insta_Gym_Version_2App.swift in Sources */,
+				7998D7DE2ADE0FA10084A4BE /* DateModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79E4DAEE2ADC324E0072F993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E4DAEF2ADC324E0072F993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E4DAF12ADC324E0072F993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Insta-Gym Version 2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "annekarolinneds.Insta-Gym-Version-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E4DAF22ADC324E0072F993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Insta-Gym Version 2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "annekarolinneds.Insta-Gym-Version-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E4DADD2ADC324C0072F993 /* Build configuration list for PBXProject "Insta-Gym Version 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E4DAEE2ADC324E0072F993 /* Debug */,
+				79E4DAEF2ADC324E0072F993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E4DAF02ADC324E0072F993 /* Build configuration list for PBXNativeTarget "Insta-Gym Version 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E4DAF12ADC324E0072F993 /* Debug */,
+				79E4DAF22ADC324E0072F993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E4DADA2ADC324C0072F993 /* Project object */;
+}
