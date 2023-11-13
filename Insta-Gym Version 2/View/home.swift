@@ -101,7 +101,8 @@ struct workoutOfTheDayCardAll: View{
     var training: WorkoutOfTheDay
     var body: some View {
         ZStack{
-            
+
+                
         }
         .padding()
         .frame(width: 310,height: 173)
@@ -113,7 +114,9 @@ struct workoutOfTheDayCard: View{
     var training: WorkoutOfTheDay
     var body: some View {
         ZStack{
-            
+     
+                
+
         }
         .padding()
         .frame(width: 310,height: 173)
