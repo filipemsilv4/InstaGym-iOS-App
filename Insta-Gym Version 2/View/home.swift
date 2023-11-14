@@ -2,12 +2,15 @@
 //  home.swift
 //  Insta-Gym Version 2
 //
-//  Created by Anne Karolinne
+//  Created by IFNMG
 //
 
 import SwiftUI
 
 struct home: View{
+    
+    @State private var tabSelection = 1 //Tab Bab
+    
     var body: some View {
         ScrollView{
             VStack{
@@ -53,7 +56,7 @@ struct home: View{
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack{
                         ForEach(workoutOfTheDayList2, id:\.id) {index in
-                            workoutOfTheDayCard(training: index)
+                            workoutOfTheDayCardCurrent(training: index)
                         }
                     }
                 }
@@ -87,8 +90,28 @@ struct home: View{
                         }
                     }
                 }
+              
             }
             .padding(30)
+            
+            //Tab Bar
+            TabView(selection: $tabSelection) {
+                Text("Tab Content 1")
+                    .tag(1)
+                
+                Text("Tab Content 1")
+                    .tag(2)
+                
+                Text("Tab Content 1")
+                    .tag(3)
+                
+                Text("Tab Content 1")
+                    .tag(4)
+                
+            } //Fim Tab Bar
+            .overlay(alignment: .bottom){
+                
+            }
         }
     }
 }
@@ -97,12 +120,51 @@ struct home: View{
     home()
 }
 
+struct workoutOfTheDayCardCurrent: View{ //Chamada de treino do dia
+    var training: WorkoutOfTheDay
+    var body: some View {
+        GeometryReader {  geometry in
+            ZStack{
+                VStack(alignment: .leading){
+                    Text("Costas e Bíceps")
+                        .font(.title)
+                        .bold()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Text("| 06 Exercícios, Duração de 1h30") // Texto principal
+                        .font(.body)
+                        .foregroundColor(.blue)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        
+                }
+                .frame(width: geometry.size.width, height: geometry.size.height, alignment: .bottom)
+            }
+        }
+        .padding()
+        .frame(width: 335,height: 173)
+        .background(training.color.opacity(0.2))
+        .cornerRadius(9.5)
+    }
+}
 struct workoutOfTheDayCardAll: View{
     var training: WorkoutOfTheDay
     var body: some View {
-        ZStack{
-
-                
+        GeometryReader {  geometry in
+            ZStack{
+                VStack(alignment: .leading){
+                    Text("Pernas e Inferiores")
+                        .font(.title)
+                        .bold()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Text("| 06 Exercícios, Duração de 1h30") // Texto principal
+                        .font(.body)
+                        .foregroundColor(.blue)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        
+                }
+                .frame(width: geometry.size.width, height: geometry.size.height, alignment: .bottom)
+            }
         }
         .padding()
         .frame(width: 310,height: 173)
@@ -114,13 +176,12 @@ struct workoutOfTheDayCard: View{
     var training: WorkoutOfTheDay
     var body: some View {
         ZStack{
-     
-                
-
+            
         }
         .padding()
         .frame(width: 310,height: 173)
         .background(training.color.opacity(0.2))
         .cornerRadius(9.5)
     }
+    //Favoritar treinos
 }

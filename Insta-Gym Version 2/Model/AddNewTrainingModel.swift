@@ -2,7 +2,7 @@
 //  AddNewTrainingModel.swift
 //  Insta-Gym Version 2
 //
-//  Created by Anne Karolinne 
+//  Created by IFNMG
 //
 //Criação de Células de treino, adicionar novo treino
 import SwiftUI

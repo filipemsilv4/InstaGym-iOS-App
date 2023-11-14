@@ -2,7 +2,7 @@
 //  AddNewTraining.swift
 //  Insta-Gym Version 2
 //
-//  Created by Anne Karolinne
+//  Created by IFNMG
 //
 
 import SwiftUI
@@ -68,21 +68,12 @@ struct AddNewTraining: View {
     }
     //Células dos exercicios, adicionar novo treino
     var CardlistAddTraining: some View {
-        NavigationView{
-            ScrollView{
-                HStack{
-                    ScrollView(.vertical, showsIndicators: false){
-                        VStack{
-                            ForEach(AddNewTrainingModelList, id: \.id) { trainingAdd in
-                                CardTrainingAdd(trainingAdd: trainingAdd)
-                            }
-                        }
-                        .padding()
-                    }
-                }
+        VStack{
+            ForEach(AddNewTrainingModelList, id: \.id) { trainingAdd in
+                CardTrainingAdd(trainingAdd: trainingAdd)
             }
         }
-        
+        .padding()
     }
     
     // Parte das Células de treino
@@ -91,35 +82,36 @@ struct AddNewTraining: View {
         
         var body: some View {
             ZStack {
-                //Fundo da célula
-                RoundedRectangle(cornerRadius: 9.5)
-                    .fill(trainingAdd.color.opacity(0.2))
                 // Conteúdo da célula de treino
                 HStack{
                     Image("treino de alguma coisa")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
+                        .background(Color.gray)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
                         .imageScale(.large)
                         .foregroundColor(.white)
                         .padding()
-                        .frame(width: 80, height: 50)
+                        .frame(width: 120, height: 120)
+                        .offset(x: -20)
                     
                     Text(trainingAdd.title)
+                        .font(.system(size: 24))
                         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                         .foregroundColor(.black)
+                        .offset(x: -30)
                     
                     Spacer()
                     
                     Button(action:{
-                        
                     }){
                         HStack{
-                            Image(systemName: "plus.circle")
+                            Image(systemName: "plus")
                         }
                         .padding(8)
                         .background(Color.blue)
                         .foregroundColor(.white)
-                        .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+                        .clipShape(Circle())
                     }
                 }
             }
@@ -129,8 +121,6 @@ struct AddNewTraining: View {
             .cornerRadius(9.5)
         }
     }
-    
-    
 }
 
 struct AddNewTraining_Previews: PreviewProvider {

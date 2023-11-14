@@ -2,7 +2,7 @@
 //  TypeTraining.swift
 //  Insta-Gym Version 2
 //
-//  Created by Anne Karolinne 
+//  Created by IFNMG
 //
 
 import SwiftUI
