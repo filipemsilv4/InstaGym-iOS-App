@@ -130,7 +130,7 @@ struct AddNewTraining: View {
         }
     }
     
-   
+    
 }
 
 struct AddNewTraining_Previews: PreviewProvider {
