@@ -24,6 +24,9 @@
 		D43B3E452B043647002A0A2F /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3E442B043647002A0A2F /* ProgressView.swift */; };
 		D43B3E492B043771002A0A2F /* ViewerWorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3E482B043771002A0A2F /* ViewerWorkoutModel.swift */; };
 		D43B3E4B2B043788002A0A2F /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3E4A2B043788002A0A2F /* ProgressViewModel.swift */; };
+		D4C67C3E2B043909005AD362 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C67C3C2B043909005AD362 /* Ring.swift */; };
+		D4C67C3F2B043909005AD362 /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C67C3D2B043909005AD362 /* RingShape.swift */; };
+		D4C67C412B04393B005AD362 /* Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C67C402B04393B005AD362 /* Diet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		D43B3E442B043647002A0A2F /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		D43B3E482B043771002A0A2F /* ViewerWorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewerWorkoutModel.swift; sourceTree = "<group>"; };
 		D43B3E4A2B043788002A0A2F /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
+		D4C67C3C2B043909005AD362 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		D4C67C3D2B043909005AD362 /* RingShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingShape.swift; sourceTree = "<group>"; };
+		D4C67C402B04393B005AD362 /* Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,8 @@
 		798B73642ADD71C0000ED7B6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D4C67C3C2B043909005AD362 /* Ring.swift */,
+				D4C67C3D2B043909005AD362 /* RingShape.swift */,
 				798B73652ADD722D000ED7B6 /* TabBarModel.swift */,
 				7998D7DB2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift */,
 				7998D7DD2ADE0FA10084A4BE /* DateModel.swift */,
@@ -118,6 +126,7 @@
 				798F4B772AF1B551005FFB1E /* ViewerWorkout.swift */,
 				D43B3E422B043619002A0A2F /* CustomTabView.swift */,
 				D43B3E442B043647002A0A2F /* ProgressView.swift */,
+				D4C67C402B04393B005AD362 /* Diet.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,9 +203,11 @@
 			files = (
 				798B73662ADD722D000ED7B6 /* TabBarModel.swift in Sources */,
 				79A8FA202ADF72BD005E737C /* TypeTraining.swift in Sources */,
+				D4C67C3F2B043909005AD362 /* RingShape.swift in Sources */,
 				D43B3E492B043771002A0A2F /* ViewerWorkoutModel.swift in Sources */,
 				D43B3E4B2B043788002A0A2F /* ProgressViewModel.swift in Sources */,
 				79E4DAF52ADC3CFC0072F993 /* home.swift in Sources */,
+				D4C67C3E2B043909005AD362 /* Ring.swift in Sources */,
 				D43B3E432B043619002A0A2F /* CustomTabView.swift in Sources */,
 				79A8FA1C2ADF4C66005E737C /* AddNewTraining.swift in Sources */,
 				798F4B782AF1B551005FFB1E /* ViewerWorkout.swift in Sources */,
@@ -205,6 +216,7 @@
 				79A8FA1E2ADF4CD7005E737C /* AddNewTrainingModel.swift in Sources */,
 				7998D7DC2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift in Sources */,
 				79E4DAE62ADC324C0072F993 /* Insta_Gym_Version_2App.swift in Sources */,
+				D4C67C412B04393B005AD362 /* Diet.swift in Sources */,
 				7998D7DE2ADE0FA10084A4BE /* DateModel.swift in Sources */,
 				D43B3E452B043647002A0A2F /* ProgressView.swift in Sources */,
 			);
