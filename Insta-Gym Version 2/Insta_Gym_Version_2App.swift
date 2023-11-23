@@ -11,7 +11,20 @@ import SwiftUI
 struct Insta_Gym_Version_2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                home()
+                    .tabItem {
+                        Image(systemName: "house")
+                        Text("Home")
+                    }
+                Diet()
+                    .tabItem {
+                        Image(systemName: "doc.text")
+                        Text("Diet")
+                    }
+
+            }
         }
     }
 }
+
