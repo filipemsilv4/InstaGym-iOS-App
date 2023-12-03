@@ -38,13 +38,12 @@ struct AddNewTraining: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.trailing)
                         Spacer()
-                    }
+                    }.padding(.leading)
                     
                     typeTrainingListView // Chamada dos filtros de treinos na preview
                     CardlistAddTraining//Chamada das celulas de treino na preview
                 }
             }
-            .padding(15)
         }.onAppear(perform: {
             api.shared.fetchAllExercises { result in
                 switch result {
@@ -77,9 +76,8 @@ struct AddNewTraining: View {
                         }
                     }
                 }
-                .padding()
             }
-        }
+        }.padding(.leading)
     }
     //Células dos exercicios, adicionar novo treino
     var CardlistAddTraining: some View {
