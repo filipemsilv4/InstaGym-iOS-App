@@ -13,7 +13,7 @@
 		7998D7DC2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7998D7DB2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift */; };
 		7998D7DE2ADE0FA10084A4BE /* DateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7998D7DD2ADE0FA10084A4BE /* DateModel.swift */; };
 		79A8FA1C2ADF4C66005E737C /* AddNewTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A8FA1B2ADF4C66005E737C /* AddNewTraining.swift */; };
-		79A8FA1E2ADF4CD7005E737C /* AddNewTrainingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A8FA1D2ADF4CD7005E737C /* AddNewTrainingModel.swift */; };
+		79A8FA1E2ADF4CD7005E737C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A8FA1D2ADF4CD7005E737C /* Exercise.swift */; };
 		79A8FA202ADF72BD005E737C /* TypeTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A8FA1F2ADF72BD005E737C /* TypeTraining.swift */; };
 		79E4DAE62ADC324C0072F993 /* Insta_Gym_Version_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4DAE52ADC324C0072F993 /* Insta_Gym_Version_2App.swift */; };
 		79E4DAE82ADC324C0072F993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4DAE72ADC324C0072F993 /* ContentView.swift */; };
@@ -78,7 +78,7 @@
 		7998D7DB2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutOfTheDayModel.swift; sourceTree = "<group>"; };
 		7998D7DD2ADE0FA10084A4BE /* DateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateModel.swift; sourceTree = "<group>"; };
 		79A8FA1B2ADF4C66005E737C /* AddNewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTraining.swift; sourceTree = "<group>"; };
-		79A8FA1D2ADF4CD7005E737C /* AddNewTrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTrainingModel.swift; sourceTree = "<group>"; };
+		79A8FA1D2ADF4CD7005E737C /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		79A8FA1F2ADF72BD005E737C /* TypeTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTraining.swift; sourceTree = "<group>"; };
 		79E4DAE22ADC324C0072F993 /* Insta-Gym Version 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta-Gym Version 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E4DAE52ADC324C0072F993 /* Insta_Gym_Version_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_Gym_Version_2App.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 				798B73652ADD722D000ED7B6 /* TabBarModel.swift */,
 				7998D7DB2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift */,
 				7998D7DD2ADE0FA10084A4BE /* DateModel.swift */,
-				79A8FA1D2ADF4CD7005E737C /* AddNewTrainingModel.swift */,
+				79A8FA1D2ADF4CD7005E737C /* Exercise.swift */,
 				79A8FA1F2ADF72BD005E737C /* TypeTraining.swift */,
 				792D24422AE88CCD00CDA178 /* ProfileModel.swift */,
 				D43B3E482B043771002A0A2F /* ViewerWorkoutModel.swift */,
@@ -377,7 +377,7 @@
 				FA71455D2B154F3B00FCCCF4 /* Authentication.swift in Sources */,
 				FAF29A692B0B9FE100251366 /* description.swift in Sources */,
 				792D24432AE88CCD00CDA178 /* ProfileModel.swift in Sources */,
-				79A8FA1E2ADF4CD7005E737C /* AddNewTrainingModel.swift in Sources */,
+				79A8FA1E2ADF4CD7005E737C /* Exercise.swift in Sources */,
 				7998D7DC2ADE029E0084A4BE /* WorkoutOfTheDayModel.swift in Sources */,
 				FA7145632B154F8800FCCCF4 /* User.swift in Sources */,
 				FA7145592B154F0300FCCCF4 /* Login.swift in Sources */,

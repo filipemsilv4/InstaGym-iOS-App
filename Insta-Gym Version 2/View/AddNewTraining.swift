@@ -78,7 +78,7 @@ struct AddNewTraining: View {
     
     // Parte das Células de treino
     struct CardTrainingAdd: View {
-        var trainingAdd: AddNewTrainingModel
+        var trainingAdd: Exercise
         
         var body: some View {
             ZStack {
@@ -95,7 +95,7 @@ struct AddNewTraining: View {
                         .frame(width: 120, height: 120)
                         .offset(x: -20)
                     
-                    Text(trainingAdd.title)
+                    Text(trainingAdd.name)
                         .font(.system(size: 24))
                         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                         .foregroundColor(.black)
@@ -117,7 +117,7 @@ struct AddNewTraining: View {
             }
             .padding()
             .frame(width: 350, height: 110)
-            .background(trainingAdd.color.opacity(0.2))
+            .background(Color.blue.opacity(0.3))
             .cornerRadius(9.5)
         }
     }
