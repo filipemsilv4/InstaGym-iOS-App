@@ -22,7 +22,16 @@ struct Insta_Gym_Version_2App: App {
                         Image(systemName: "doc.text")
                         Text("Diet")
                     }
-
+                AddNewTraining()
+                    .tabItem {
+                        Image(systemName: "plus.circle")
+                        Text("Add")
+                    }
+                AllExercisesTestView()
+                    .tabItem {
+                        Image(systemName: "list.bullet")
+                        Text("< API TEST>")
+                    }
             }
         }
     }

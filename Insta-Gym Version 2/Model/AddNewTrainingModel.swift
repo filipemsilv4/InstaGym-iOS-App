@@ -7,6 +7,15 @@
 //Criação de Células de treino, adicionar novo treino
 import SwiftUI
 
+struct Exercise: Identifiable, Codable, Hashable {
+    let bodyPart: String
+    let equipment: String
+    let gifUrl: String
+    let id: String
+    let name: String
+    let target: String
+}
+
 struct AddNewTrainingModel: Identifiable, Hashable {
     var id: UUID = .init()
     var image: String

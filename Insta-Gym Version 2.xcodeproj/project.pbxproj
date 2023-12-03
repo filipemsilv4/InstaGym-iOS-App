@@ -24,6 +24,12 @@
 		D43B3E452B043647002A0A2F /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3E442B043647002A0A2F /* ProgressView.swift */; };
 		D43B3E492B043771002A0A2F /* ViewerWorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3E482B043771002A0A2F /* ViewerWorkoutModel.swift */; };
 		D43B3E4B2B043788002A0A2F /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3E4A2B043788002A0A2F /* ProgressViewModel.swift */; };
+		D4B5BDFA2B1CF44800632EA3 /* AllExercisesTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B5BDF92B1CF44800632EA3 /* AllExercisesTestView.swift */; };
+		D4B5BDFD2B1CF54900632EA3 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D4B5BDFC2B1CF54900632EA3 /* SDWebImage */; };
+		D4B5BDFF2B1CF54900632EA3 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D4B5BDFE2B1CF54900632EA3 /* SDWebImageMapKit */; };
+		D4B5BE012B1CF5D100632EA3 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D4B5BE002B1CF5D100632EA3 /* SDWebImage */; };
+		D4B5BE032B1CF5D100632EA3 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D4B5BE022B1CF5D100632EA3 /* SDWebImageMapKit */; };
+		D4B5BE062B1CF67300632EA3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D4B5BE052B1CF67300632EA3 /* SDWebImageSwiftUI */; };
 		D4C67C3E2B043909005AD362 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C67C3C2B043909005AD362 /* Ring.swift */; };
 		D4C67C3F2B043909005AD362 /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C67C3D2B043909005AD362 /* RingShape.swift */; };
 		D4C67C412B04393B005AD362 /* Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C67C402B04393B005AD362 /* Diet.swift */; };
@@ -31,7 +37,6 @@
 		FA7145592B154F0300FCCCF4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7145582B154F0300FCCCF4 /* Login.swift */; };
 		FA71455B2B154F1900FCCCF4 /* Restration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71455A2B154F1900FCCCF4 /* Restration.swift */; };
 		FA71455D2B154F3B00FCCCF4 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71455C2B154F3B00FCCCF4 /* Authentication.swift */; };
-		FA71455F2B154F5B00FCCCF4 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71455E2B154F5B00FCCCF4 /* Exercise.swift */; };
 		FA7145612B154F7400FCCCF4 /* ExerciseApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7145602B154F7400FCCCF4 /* ExerciseApiModel.swift */; };
 		FA7145632B154F8800FCCCF4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7145622B154F8800FCCCF4 /* User.swift */; };
 		FA7145662B154FB300FCCCF4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FA7145652B154FB300FCCCF4 /* FirebaseAnalytics */; };
@@ -85,6 +90,7 @@
 		D43B3E442B043647002A0A2F /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		D43B3E482B043771002A0A2F /* ViewerWorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewerWorkoutModel.swift; sourceTree = "<group>"; };
 		D43B3E4A2B043788002A0A2F /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
+		D4B5BDF92B1CF44800632EA3 /* AllExercisesTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExercisesTestView.swift; sourceTree = "<group>"; };
 		D4C67C3C2B043909005AD362 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
 		D4C67C3D2B043909005AD362 /* RingShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingShape.swift; sourceTree = "<group>"; };
 		D4C67C402B04393B005AD362 /* Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diet.swift; sourceTree = "<group>"; };
@@ -92,7 +98,6 @@
 		FA7145582B154F0300FCCCF4 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		FA71455A2B154F1900FCCCF4 /* Restration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restration.swift; sourceTree = "<group>"; };
 		FA71455C2B154F3B00FCCCF4 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
-		FA71455E2B154F5B00FCCCF4 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		FA7145602B154F7400FCCCF4 /* ExerciseApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseApiModel.swift; sourceTree = "<group>"; };
 		FA7145622B154F8800FCCCF4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FA7145992B15507500FCCCF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -113,14 +118,18 @@
 				FA71456A2B154FB300FCCCF4 /* FirebaseAnalyticsSwift in Frameworks */,
 				FA7145662B154FB300FCCCF4 /* FirebaseAnalytics in Frameworks */,
 				FA7145682B154FB300FCCCF4 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				D4B5BE012B1CF5D100632EA3 /* SDWebImage in Frameworks */,
 				FA7145862B154FB300FCCCF4 /* FirebaseInAppMessaging-Beta in Frameworks */,
 				FA7145822B154FB300FCCCF4 /* FirebaseFirestoreSwift in Frameworks */,
 				FA71458C2B154FB300FCCCF4 /* FirebaseMLModelDownloader in Frameworks */,
 				FA7145942B154FB300FCCCF4 /* FirebaseRemoteConfigSwift in Frameworks */,
 				FA71456E2B154FB300FCCCF4 /* FirebaseAppCheck in Frameworks */,
 				FA71458E2B154FB300FCCCF4 /* FirebaseMessaging in Frameworks */,
+				D4B5BE062B1CF67300632EA3 /* SDWebImageSwiftUI in Frameworks */,
 				FA71458A2B154FB300FCCCF4 /* FirebaseInstallations in Frameworks */,
 				FA71456C2B154FB300FCCCF4 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				D4B5BE032B1CF5D100632EA3 /* SDWebImageMapKit in Frameworks */,
+				D4B5BDFD2B1CF54900632EA3 /* SDWebImage in Frameworks */,
 				FA7145722B154FB300FCCCF4 /* FirebaseAuth in Frameworks */,
 				FA7145982B154FB300FCCCF4 /* FirebaseStorageCombine-Community in Frameworks */,
 				FA7145762B154FB300FCCCF4 /* FirebaseCrashlytics in Frameworks */,
@@ -131,6 +140,7 @@
 				FA7145742B154FB300FCCCF4 /* FirebaseAuthCombine-Community in Frameworks */,
 				FA71457C2B154FB300FCCCF4 /* FirebaseDynamicLinks in Frameworks */,
 				FA7145882B154FB300FCCCF4 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				D4B5BDFF2B1CF54900632EA3 /* SDWebImageMapKit in Frameworks */,
 				FA7145802B154FB300FCCCF4 /* FirebaseFirestoreCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +163,6 @@
 				792D24422AE88CCD00CDA178 /* ProfileModel.swift */,
 				D43B3E482B043771002A0A2F /* ViewerWorkoutModel.swift */,
 				D43B3E4A2B043788002A0A2F /* ProgressViewModel.swift */,
-				FA71455E2B154F5B00FCCCF4 /* Exercise.swift */,
 				FA7145602B154F7400FCCCF4 /* ExerciseApiModel.swift */,
 				FA7145622B154F8800FCCCF4 /* User.swift */,
 			);
@@ -210,6 +219,7 @@
 				D43B3E422B043619002A0A2F /* CustomTabView.swift */,
 				D43B3E442B043647002A0A2F /* ProgressView.swift */,
 				D4C67C402B04393B005AD362 /* Diet.swift */,
+				D4B5BDF92B1CF44800632EA3 /* AllExercisesTestView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,6 +293,11 @@
 				FA7145932B154FB300FCCCF4 /* FirebaseRemoteConfigSwift */,
 				FA7145952B154FB300FCCCF4 /* FirebaseStorage */,
 				FA7145972B154FB300FCCCF4 /* FirebaseStorageCombine-Community */,
+				D4B5BDFC2B1CF54900632EA3 /* SDWebImage */,
+				D4B5BDFE2B1CF54900632EA3 /* SDWebImageMapKit */,
+				D4B5BE002B1CF5D100632EA3 /* SDWebImage */,
+				D4B5BE022B1CF5D100632EA3 /* SDWebImageMapKit */,
+				D4B5BE052B1CF67300632EA3 /* SDWebImageSwiftUI */,
 			);
 			productName = "Insta-Gym Version 2";
 			productReference = 79E4DAE22ADC324C0072F993 /* Insta-Gym Version 2.app */;
@@ -314,6 +329,8 @@
 			mainGroup = 79E4DAD92ADC324C0072F993;
 			packageReferences = (
 				FA7145642B154FB300FCCCF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D4B5BDFB2B1CF54900632EA3 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				D4B5BE042B1CF67300632EA3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 79E4DAE32ADC324C0072F993 /* Products */;
 			projectDirPath = "";
@@ -346,12 +363,12 @@
 				79A8FA202ADF72BD005E737C /* TypeTraining.swift in Sources */,
 				FAF29A672B0B9FC900251366 /* descripitonExec.swift in Sources */,
 				D4C67C3F2B043909005AD362 /* RingShape.swift in Sources */,
+				D4B5BDFA2B1CF44800632EA3 /* AllExercisesTestView.swift in Sources */,
 				D43B3E492B043771002A0A2F /* ViewerWorkoutModel.swift in Sources */,
 				FAF29A6B2B0B9FEC00251366 /* descriptionModel.swift in Sources */,
 				D43B3E4B2B043788002A0A2F /* ProgressViewModel.swift in Sources */,
 				79E4DAF52ADC3CFC0072F993 /* home.swift in Sources */,
 				D4C67C3E2B043909005AD362 /* Ring.swift in Sources */,
-				FA71455F2B154F5B00FCCCF4 /* Exercise.swift in Sources */,
 				D43B3E432B043619002A0A2F /* CustomTabView.swift in Sources */,
 				79A8FA1C2ADF4C66005E737C /* AddNewTraining.swift in Sources */,
 				FA7145612B154F7400FCCCF4 /* ExerciseApiModel.swift in Sources */,
@@ -575,6 +592,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D4B5BDFB2B1CF54900632EA3 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.5;
+			};
+		};
+		D4B5BE042B1CF67300632EA3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.5;
+			};
+		};
 		FA7145642B154FB300FCCCF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -586,6 +619,31 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D4B5BDFC2B1CF54900632EA3 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4B5BDFB2B1CF54900632EA3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		D4B5BDFE2B1CF54900632EA3 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4B5BDFB2B1CF54900632EA3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		D4B5BE002B1CF5D100632EA3 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4B5BDFB2B1CF54900632EA3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		D4B5BE022B1CF5D100632EA3 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4B5BDFB2B1CF54900632EA3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		D4B5BE052B1CF67300632EA3 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4B5BE042B1CF67300632EA3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
 		FA7145652B154FB300FCCCF4 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FA7145642B154FB300FCCCF4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
