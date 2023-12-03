@@ -6,40 +6,55 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI  // dependecia para gerar os gifs https://github.com/SDWebImage/SDWebImageSwiftUI.git
+
 
 struct AddNewTraining: View {
     // Type Training List
     @State var selectedTypeTraining = ""
     @Environment(\.presentationMode) var mode
     
+    @State var AddNewTrainingModelList: [Exercise] = []
+    
     var body: some View {
-        ScrollView {
-            VStack {
-                // Header
-                HStack {
-                    Button {
-                        mode.wrappedValue.dismiss()
-                    } label: {
-                        Image(systemName: "arrow.left")
-                            .imageScale(/*@START_MENU_TOKEN@*/.medium/*@END_MENU_TOKEN@*/)
-                            .padding()
-                            .frame(width: 30,height: 30)
-                            .overlay(RoundedRectangle(cornerRadius: 50).stroke().opacity(0.4))
+        NavigationView {
+            ScrollView {
+                VStack {
+                    // Header
+                    HStack {
+                        Button {
+                            mode.wrappedValue.dismiss()
+                        } label: {
+                            Image(systemName: "arrow.left")
+                                .imageScale(/*@START_MENU_TOKEN@*/.medium/*@END_MENU_TOKEN@*/)
+                                .padding()
+                                .frame(width: 30,height: 30)
+                                .overlay(RoundedRectangle(cornerRadius: 50).stroke().opacity(0.4))
+                        }
+                        
+                        Text("Adicionar Exercício")
+                            .font(.system(size: 20))
+                            .bold()
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.trailing)
+                        Spacer()
                     }
                     
-                    Text("Adicionar Exercício")
-                        .font(.system(size: 20))
-                        .bold()
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.trailing)
-                    Spacer()
+                    typeTrainingListView // Chamada dos filtros de treinos na preview
+                    CardlistAddTraining//Chamada das celulas de treino na preview
                 }
-                
-                typeTrainingListView // Chamada dos filtros de treinos na preview
-                CardlistAddTraining//Chamada das celulas de treino na preview
             }
-        }
-        .padding(15)
+            .padding(15)
+        }.onAppear(perform: {
+            api.shared.fetchAllExercises { result in
+                switch result {
+                case .success(let exercises):
+                    self.AddNewTrainingModelList = exercises
+                case .failure(let error):
+                    print("Error fetching exercises: \(error)")
+                }
+            }
+        })
     }
     
     // Lista de filtragem de treinos, botoes de selecao
@@ -68,7 +83,7 @@ struct AddNewTraining: View {
     }
     //Células dos exercicios, adicionar novo treino
     var CardlistAddTraining: some View {
-        VStack{
+        LazyVStack {
             ForEach(AddNewTrainingModelList, id: \.id) { trainingAdd in
                 CardTrainingAdd(trainingAdd: trainingAdd)
             }
@@ -84,7 +99,7 @@ struct AddNewTraining: View {
             ZStack {
                 // Conteúdo da célula de treino
                 HStack{
-                    Image("treino de alguma coisa")
+                    AnimatedImage(url: URL(string: trainingAdd.gifUrl)!)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .background(Color.gray)
