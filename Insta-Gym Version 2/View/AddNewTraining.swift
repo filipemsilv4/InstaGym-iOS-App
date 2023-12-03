@@ -56,6 +56,16 @@ struct AddNewTraining: View {
         })
     }
     
+/* COMO CHAMAR PARA UMA PARTE ESPECIFICA DO CORPO:
+     api.shared.fetchExercises(byBodyPart: "back", completion: { result in
+     switch result {
+     case .success(let exercises):
+         self.AddNewTrainingModelList = exercises
+     case .failure(let error):
+         print("Error fetching exercises: \(error)")
+     }
+    })
+ */
     // Lista de filtragem de treinos, botoes de selecao
     var typeTrainingListView: some View {
         HStack {

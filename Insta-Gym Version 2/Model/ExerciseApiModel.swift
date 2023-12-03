@@ -33,15 +33,15 @@ struct api {
         }.resume()
     }
         
-        // Função para buscar todos os exercícios
-        func fetchAllExercises(completion: @escaping (Result<[Exercise], Error>) -> Void) {
-              let url = "https://exercisedb.p.rapidapi.com/exercises"
-              fetchData(fromURL: url) { (result: Result<[Exercise], Error>) in
-                  completion(result)
-              }
+    // Função para buscar todos os exercícios
+    func fetchAllExercises(completion: @escaping (Result<[Exercise], Error>) -> Void) {
+          let url = "https://exercisedb.p.rapidapi.com/exercises"
+          fetchData(fromURL: url) { (result: Result<[Exercise], Error>) in
+              completion(result)
           }
-        
-        // Função para buscar exercícios por IDs específicos
+      }
+    
+    // Função para buscar exercícios por IDs específicos
         
     func fetchExercises(withIds ids: [String], completion: @escaping (Result<[Exercise], Error>) -> Void) {
         var exercises: [Exercise] = []
@@ -66,6 +66,14 @@ struct api {
 
         dispatchGroup.notify(queue: .main) {
             completion(.success(exercises))
+        }
+    }
+    
+    // Função para buscar exercícios por parte do corpo
+    func fetchExercises(byBodyPart bodyPart: String, completion: @escaping (Result<[Exercise], Error>) -> Void) {
+        let url = "https://exercisedb.p.rapidapi.com/exercises/bodyPart/\(bodyPart)"
+        fetchData(fromURL: url) { (result: Result<[Exercise], Error>) in
+            completion(result)
         }
     }
     
