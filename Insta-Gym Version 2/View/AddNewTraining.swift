@@ -45,7 +45,7 @@ struct AddNewTraining: View {
                 }
             }
         }.onAppear(perform: {
-            api.shared.fetchAllExercises { result in
+            apiCall.shared.fetchAllExercises { result in
                 switch result {
                 case .success(let exercises):
                     self.AddNewTrainingModelList = exercises
@@ -57,7 +57,7 @@ struct AddNewTraining: View {
     }
     
 /* COMO CHAMAR PARA UMA PARTE ESPECIFICA DO CORPO:
-     api.shared.fetchExercises(byBodyPart: "back", completion: { result in
+     apiCall.shared.fetchExercises(byBodyPart: "back", completion: { result in
      switch result {
      case .success(let exercises):
          self.AddNewTrainingModelList = exercises

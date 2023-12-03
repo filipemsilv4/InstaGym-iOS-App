@@ -1,6 +1,6 @@
 import Foundation
-struct api {
-    static let shared = api()
+struct apiCall {
+    static let shared = apiCall()
 
     private init() {}
         // Função para fazer uma requisição genérica de dados de uma URL

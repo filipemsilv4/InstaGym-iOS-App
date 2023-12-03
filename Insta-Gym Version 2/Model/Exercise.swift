@@ -7,7 +7,7 @@
 //Criação de Células de treino, adicionar novo treino
 import SwiftUI
 
-struct Exercise: Identifiable, Codable, Hashable { // Isso é o que retorna da API
+struct Exercise: Identifiable, Codable, Hashable { 
     let bodyPart: String
     let equipment: String
     let gifUrl: String
