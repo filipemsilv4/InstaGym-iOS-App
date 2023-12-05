@@ -36,10 +36,11 @@ struct Diet: View {
             
             // Bloquinhos de gráfico
             VStack {
-                graphCardWide(color: Color.blue, value: 3000, percentage: 100, label: "Calorias", labelAbrev: "kcal")
+                //graphCardWide(color: Color.blue, value: 3000, percentage: 100, label: "Calorias", labelAbrev: "kcal")
+                graphCardWide(color:Color.blue, value: MOCK_USER.dietStats.calories, percentage: Int((100.0 / Float(MOCK_USER.dietGoals.calories)) * Float(MOCK_USER.dietStats.calories)), label: "Calorias", labelAbrev: "kcal")
                 HStack {
-                    graphCardRegular(color: Color.green, value: 86, percentage: 70, label: "Proteínas", labelAbrev: "g")
-                    graphCardRegular(color: Color.red, value: 199, percentage: 90, label: "Carboidratos", labelAbrev: "g")
+                    graphCardRegular(color: Color.green, value: MOCK_USER.dietStats.proteins, percentage: Int((100.0 / Float(MOCK_USER.dietGoals.proteins)) * Float(MOCK_USER.dietStats.proteins)), label: "Proteínas", labelAbrev: "g")
+                    graphCardRegular(color: Color.red, value: MOCK_USER.dietStats.carbs, percentage: Int((100.0 / Float(MOCK_USER.dietGoals.carbs)) * Float(MOCK_USER.dietStats.carbs)), label: "Carboidratos", labelAbrev: "g")
                 }
             }
         }
