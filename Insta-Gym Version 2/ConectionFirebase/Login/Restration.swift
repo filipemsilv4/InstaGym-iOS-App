@@ -75,7 +75,7 @@ struct RegistrationView: View {
             // sign up button
             Button {
                 Task{
-                    try await viewModel.createdUser(withEmail: email, password: password, fullname: fullname)
+                    try await viewModel.createdUser(withEmail: email, password: password, fullname: fullname, workouts: [])
                 }
                
             } label: {
