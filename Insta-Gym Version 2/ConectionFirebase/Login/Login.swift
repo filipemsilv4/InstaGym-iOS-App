@@ -79,7 +79,7 @@ struct LoginUIView: View {
                     
                 }label: {
                     HStack{
-                        Text("Nao tem conta?")
+                        Text("Não tem conta?")
                         Text("Crie Agora ")
                             .fontWeight(.semibold)
                         

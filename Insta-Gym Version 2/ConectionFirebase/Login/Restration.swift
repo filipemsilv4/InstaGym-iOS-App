@@ -88,7 +88,7 @@ struct RegistrationView: View {
             Button{dismiss()
             }label: {
                 HStack{
-                    Text("Ja tenho conta!")
+                    Text("Já tenho conta!")
                     Text("Login")
                         .fontWeight(.bold)
                     
