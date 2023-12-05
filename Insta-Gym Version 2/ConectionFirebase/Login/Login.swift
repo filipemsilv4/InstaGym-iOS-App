@@ -15,19 +15,34 @@ struct LoginUIView: View {
 
     var body: some View {
         NavigationStack{
+            ZStack(alignment: .top){
+                // Aqui está a imagem que será exibida acima do título
+                    Image("manfit") // Substitua "nomeDaSuaImagem" pelo nome real da sua imagem
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 480, height: 180) // Ajuste o tamanho conforme necessário
+            }
+            
             VStack{
                 // image
-                Text("InstaGym")
-                  .font(
-                    Font.custom("Inter", size: 60)
-                      .weight(.bold)
-                  )
-                  .kerning(0.6)
-                  .multilineTextAlignment(.center)
-                  .foregroundColor(Color(red: 0.04, green: 0.52, blue: 1))
-                  .frame(width: 375, height: 100, alignment: .top)
+                Spacer().frame(height: 80)
                 
-                
+                HStack {
+                       Text("InstaGym")
+                           .font(
+                               Font.custom("Inter", size: 60)
+                                   .weight(.bold)
+                           )
+                           .kerning(0.6)
+                           .multilineTextAlignment(.center)
+                           .foregroundColor(Color(red: 0.04, green: 0.52, blue: 1))
+                           .frame(height: 100, alignment: .top)
+                       
+                       Image(systemName: "dumbbell") // Substitua "dumbbell" pelo nome do símbolo SF Symbols desejado
+                            .font(.largeTitle)
+                            .foregroundColor(Color(red: 0.04, green: 0.52, blue: 1))
+                            .baselineOffset(-10)
+                   }
                 // For fields
                 VStack (spacing: 24){
                     InputView(text: $email, title: "Email ",

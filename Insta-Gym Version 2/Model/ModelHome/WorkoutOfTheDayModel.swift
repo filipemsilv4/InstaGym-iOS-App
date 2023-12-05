@@ -23,5 +23,5 @@ var workoutOfTheDayList = [
 ]
 
 var workoutOfTheDayList2 = [
-    WorkoutOfTheDay(name: "Treino 1", numberOfWorkouts: "10", color: .blue, workoutDuration: "1h", image: "")
+    WorkoutOfTheDay(name: "Treino 1", numberOfWorkouts: "10", color: .blue, workoutDuration: "1h", image: "fithome")
 ]

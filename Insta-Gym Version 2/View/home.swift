@@ -125,6 +125,13 @@ struct workoutOfTheDayCardCurrent: View{ //Chamada de treino do dia
     var body: some View {
         GeometryReader {  geometry in
             ZStack{
+                Image("fithome") // Substitua "nomeDaSuaImagem" pelo nome real da sua imagem
+                    .resizable()
+                    .scaledToFill() // Ajusta a escala para preencher completamente o espaço disponível
+                    .frame(width: geometry.size.width, height: geometry.size.height)
+                        .clipped()
+                
+                
                 VStack(alignment: .leading){
                     Text("Costas e Bíceps")
                         .font(.title)
