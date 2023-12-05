@@ -16,11 +16,12 @@ struct RegistrationView: View {
     var body: some View {
         VStack{
             ZStack(alignment: .top){
-                // Aqui está a imagem que será exibida acima do título
-                    Image("fithome") // Substitua "nomeDaSuaImagem" pelo nome real da sua imagem
+                    Image("fithome")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 480, height: 80) // Ajuste o tamanho conforme necessário
+                        .blur(radius: 1.5) // nivel de desfoque
+                        .colorMultiply(Color.blue.opacity(2))
             }
             Spacer().frame(height: 120)
 

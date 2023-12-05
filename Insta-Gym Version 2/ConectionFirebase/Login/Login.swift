@@ -17,11 +17,12 @@ struct LoginUIView: View {
         NavigationStack{
             ZStack(alignment: .top){
                 // Aqui está a imagem que será exibida acima do título
-                    Image("manfit") 
+                    Image("manfit")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 480, height: 180) // Ajuste o tamanho conforme necessário
                         .blur(radius: 1.5) // nivel de desfoque
+                        .colorMultiply(Color.blue.opacity(2)) //cor do filtro
             }
             
             VStack{
