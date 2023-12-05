@@ -2,7 +2,7 @@
 //  LoginUIView.swift
 //  SwiftUIAuthTutorial
 //
-//  Created by alexandre pereira on 25/10/23.
+//  Created by IFNMG
 //
 
 import SwiftUI
