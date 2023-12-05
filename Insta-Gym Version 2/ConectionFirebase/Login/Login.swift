@@ -17,10 +17,11 @@ struct LoginUIView: View {
         NavigationStack{
             ZStack(alignment: .top){
                 // Aqui está a imagem que será exibida acima do título
-                    Image("manfit") // Substitua "nomeDaSuaImagem" pelo nome real da sua imagem
+                    Image("manfit") 
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 480, height: 180) // Ajuste o tamanho conforme necessário
+                        .blur(radius: 1.5) // nivel de desfoque
             }
             
             VStack{
@@ -38,10 +39,6 @@ struct LoginUIView: View {
                            .foregroundColor(Color(red: 0.04, green: 0.52, blue: 1))
                            .frame(height: 100, alignment: .top)
                        
-                       Image(systemName: "dumbbell") // Substitua "dumbbell" pelo nome do símbolo SF Symbols desejado
-                            .font(.largeTitle)
-                            .foregroundColor(Color(red: 0.04, green: 0.52, blue: 1))
-                            .baselineOffset(-40)
                    }
                 // For fields
                 VStack (spacing: 24){

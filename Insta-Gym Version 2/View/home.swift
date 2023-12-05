@@ -123,6 +123,9 @@ struct home: View{
 struct workoutOfTheDayCardCurrent: View{ //Chamada de treino do dia
     var training: WorkoutOfTheDay
     var body: some View {
+        NavigationLink(destination: DescriptionExec()){
+            
+        }
         GeometryReader {  geometry in
             ZStack{
                 Image("fithome") // Substitua "nomeDaSuaImagem" pelo nome real da sua imagem
@@ -153,9 +156,12 @@ struct workoutOfTheDayCardCurrent: View{ //Chamada de treino do dia
         .cornerRadius(9.5)
     }
 }
-struct workoutOfTheDayCardAll: View{
+struct workoutOfTheDayCardAll: View{ //DescriptionExec()
     var training: WorkoutOfTheDay
     var body: some View {
+        NavigationLink(destination: DescriptionExec()){
+            
+        }
         GeometryReader {  geometry in
             ZStack{
                 VStack(alignment: .leading){
