@@ -15,6 +15,15 @@ struct RegistrationView: View {
     
     var body: some View {
         VStack{
+            ZStack(alignment: .top){
+                // Aqui está a imagem que será exibida acima do título
+                    Image("fithome") // Substitua "nomeDaSuaImagem" pelo nome real da sua imagem
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 480, height: 80) // Ajuste o tamanho conforme necessário
+            }
+            Spacer().frame(height: 120)
+
             Text("InstaGym")
               .font(
                 Font.custom("Inter", size: 60)
@@ -25,8 +34,8 @@ struct RegistrationView: View {
               .foregroundColor(Color(red: 0.04, green: 0.52, blue: 1))
               .frame(width: 375, height: 100, alignment: .top)
             
-            
-            
+            Spacer().frame(height: -20)
+
             VStack (spacing: 24){
                 InputView(text: $email, title: "Email ",
                           placeholder: "nome@email.com")

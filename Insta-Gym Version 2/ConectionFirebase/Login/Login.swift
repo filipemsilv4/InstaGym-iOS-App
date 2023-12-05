@@ -41,7 +41,7 @@ struct LoginUIView: View {
                        Image(systemName: "dumbbell") // Substitua "dumbbell" pelo nome do símbolo SF Symbols desejado
                             .font(.largeTitle)
                             .foregroundColor(Color(red: 0.04, green: 0.52, blue: 1))
-                            .baselineOffset(-10)
+                            .baselineOffset(-40)
                    }
                 // For fields
                 VStack (spacing: 24){
