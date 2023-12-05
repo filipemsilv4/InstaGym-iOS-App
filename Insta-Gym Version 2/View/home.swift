@@ -128,11 +128,11 @@ struct workoutOfTheDayCardCurrent: View{ //Chamada de treino do dia
         }
         GeometryReader {  geometry in
             ZStack{
-                Image("fithome") // Substitua "nomeDaSuaImagem" pelo nome real da sua imagem
-                    .resizable()
-                    .scaledToFill() // Ajusta a escala para preencher completamente o espaço disponível
-                    .frame(width: geometry.size.width, height: geometry.size.height)
-                        .clipped()
+              //  Image("fithome") // Substitua "nomeDaSuaImagem" pelo nome real da sua imagem
+                  //  .resizable()
+                //    .scaledToFill() // Ajusta a escala para preencher completamente o espaço disponível
+                  //  .frame(width: geometry.size.width, height: geometry.size.height)
+                    //    .clipped()
                 
                 
                 VStack(alignment: .leading){
